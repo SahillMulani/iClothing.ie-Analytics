@@ -1,0 +1,54 @@
+Column ,Data Type,Nullable,Primary Key
+Date ,date,Y,N
+Date_Key,int,Y,N
+Day,text,Y,N
+Month,text,Y,N
+Month_Num,int,Y,N
+Year,int,Y,N
+,,,
+,,,
+,,,
+Column ,Data Type,Nullable,Primary Key
+Customer ID,int,N,Y
+Customer Name,text,Y,N
+Segment,text,Y,N
+Country,text,Y,N
+City,text,Y,N
+Postal Code,int,Y,N
+,,,
+,,,
+Column ,Data Type,Nullable,Primary Key
+Brand Name,text,Y,N
+Catreogry,text,Y,N
+Color,text,Y,N
+Product ID,text,N,Y
+Product Name,text,Y,N
+Ratings,int,Y,N
+Size,int,Y,N
+Sub-Category,text,Y,N
+,,,
+,,,
+,,,
+Column ,Data Type,Nullable,Primary Key
+Brand Name,text,Y,N
+Catreogry,text,Y,N
+Color,text,Y,N
+Product ID,text,N,Y
+Product Name,text,Y,N
+Ratings,int,Y,N
+Size,int,Y,N
+Sub-Category,text,Y,N
+,,,
+,,,
+Column ,Data Type,Nullable,Primary Key
+Customer ID,int,N,Y
+Date,date,Y,N
+Date_key,int,Y,N
+Discount,int,N,N
+Order ID,int,N,Y
+Product ID,int,N,Y
+Profit,int,Y,N
+Quantity,int,Y,N
+Revenue ,int,Y,N
+Shipoing Mode,text,Y,N
+Shipping Time,int,Y,N
